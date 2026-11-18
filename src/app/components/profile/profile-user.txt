@@ -1,0 +1,39 @@
+<section class="card" id="profil">
+  <div class="icon">👤</div>
+  <div>
+    <h2>Profil utilisateur</h2>
+    <p><strong>Nom :</strong> Ahmed </p>
+    <p><strong>Email :</strong> Ahmed@esprit.tn  </p>
+  </div>
+</section>
+///////////////////////////
+.card {
+  background: white;
+  border-left: 5px solid #2f6fb4;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
+
+.icon {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #eaf2fb;
+  font-size: 28px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #173b67;
+}
